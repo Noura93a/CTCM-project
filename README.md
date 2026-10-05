@@ -1,4 +1,5 @@
 # Content Tagging & Competency Mapping (CTCM)
+<img width="900" height="506" alt="streamlit-demo" src="https://github.com/user-attachments/assets/8d150856-867b-40e7-9d87-1559b0fc5619" />
 
 **Team 2 — AI Data Center Operations Capstone**
 
@@ -185,8 +186,6 @@ The evaluation covers:
 * Throughput
 * Concurrent request behavior
 
-> **NDA / Confidentiality Notice:** The original learning-content files and reviewed Golden Set used for the final benchmark are not included in this public repository due to confidentiality and non-disclosure agreement (NDA) requirements. They were used during the project evaluation but are intentionally excluded from the public repository.
-
 The final benchmark results are summarized below.
 
 ---
@@ -249,13 +248,7 @@ Concurrency was evaluated with:
 * Both Qwen and OpenAI
 * **9 requests per model**
 
-> **NDA / Confidentiality Notice:** The representative learning-content files used in this benchmark are not included in this public repository because they were part of the project materials covered by confidentiality and NDA requirements.
 
-<p align="center">
-  <img src="docs/images/concurrent-benchmark-summary.png"
-       alt="Concurrent benchmark: average latency per file, workload speedup, and per-request latency for Qwen and OpenAI"
-       width="900">
-</p>
 
 | Metric                 |            Qwen |           OpenAI |
 | ---------------------- | --------------: | ---------------: |
@@ -429,32 +422,6 @@ An interactive Streamlit interface supports file upload, inference-backend selec
 
 ---
 
-## AI Hub Scope
-
-> AI Hub deployment was optional for the final presentation and was deferred until after the presentation based on instructor guidance.
-
-The final capstone work therefore focuses on the implemented model deployment, evaluation, benchmarking, observability, concurrency testing, and demonstration interface.
-
----
-
-## Additional Evidence
-
-<details>
-<summary><strong>Deployment readiness check</strong></summary>
-
-<br>
-
-<p align="center">
-  <img src="docs/images/deployment-readiness-check.png"
-       alt="Deployment readiness check: three gates and measured values for Qwen and OpenAI"
-       width="900">
-</p>
-
-The readiness script used strict development thresholds. Its historical `< 10 s` average-latency threshold is different from the final capstone targets listed under Service Indicators above.
-
-</details>
-
----
 
 ## Technologies
 
