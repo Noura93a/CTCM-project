@@ -16,7 +16,7 @@ The service produces:
 
 The project combines **multimodal content extraction, RAG, local GPU inference, OpenAI inference, vLLM continuous batching, Docker, Kubernetes, Prometheus, Grafana, and Streamlit** in one end-to-end AI system.
 
-> **Documentation-only repository.** This repository documents the project's design, evaluation, and results. The source code is kept in a private repository.
+> **Documentation-only repository.** This repository documents the project's design, evaluation, and results. 
 
 ---
 
