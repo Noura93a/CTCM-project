@@ -331,7 +331,6 @@ curl -X POST http://<HOST>:8000/v1/tag/upload \
   -F "model=qwen"
 ```
 
-> **NDA / Confidentiality Notice:** The original benchmark and learning-content files used during project evaluation are not included in this public repository. The API accepts supported learning-content files provided by an authorized user.
 
 Available model values:
 
